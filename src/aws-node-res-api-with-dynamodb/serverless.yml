@@ -1,10 +1,9 @@
-service: serverless-rest-api-with-dynamodb
 
-frameworkVersion: ">=1.1.0 <2.0.0"
+service: aws-node-res-api-with-dynamodb
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs12.x
   profile: serverless-admin
   region: sa-east-1
   environment:

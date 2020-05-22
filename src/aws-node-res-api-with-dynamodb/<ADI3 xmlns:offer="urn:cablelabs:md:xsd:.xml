@@ -1,0 +1,76 @@
+<ADI3 xmlns:offer="urn:cablelabs:md:xsd:offer:3.0" xmlns:core="urn:cablelabs:md:xsd:core:3.0" xmlns:terms="urn:cablelabs:md:xsd:terms:3.0" xmlns:title="urn:cablelabs:md:xsd:title:3.0" xmlns:content="urn:cablelabs:md:xsd:content:3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Asset uriId="telecine.com.br/offer/9855471" 
+         startDateTime="2020-05-8T15:00:00-03:00" 
+         xsi:type="offer:OfferType" 
+         state="Available" 
+         endDateTime="2020-10-30T18:30:00-03:00" 
+         creationDateTime="2019-09-27T17:01:10-03:00">
+    <AlternateId identifierSystem="IBMS">9855471</AlternateId>
+    <Provider>telecine.com.br</Provider>
+    <offer:Presentation>
+      <offer:CategoryRef uriId="telecine.com.br/category/9855471"></offer:CategoryRef>
+    </offer:Presentation>
+    <offer:ContentGroupRef uriId="telecine.com.br/contentGroup/9855471"></offer:ContentGroupRef>
+  </Asset>
+  <Asset xsi:type="title:TitleType" uriId="telecine.com.br/title/2488051">
+    <AlternateId identifierSystem="IBMS">2488051</AlternateId>
+    <Provider>telecine.com.br</Provider>
+    <Ext>
+      <originalTitle>Cr&#xf4; Em Fam&#xed;lia</originalTitle>
+      <countryCode code="US">Estados Unidos</countryCode>
+      <distributor>Buena Vista International Inc.</distributor>
+      <keywords>Fam&#xed;lia,Div&#xf3;rcio,Trapalh&#xf5;es,Trapalhadas,Crise Conjugal,Humor Besteirol,Briga de Fam&#xed;lia,Baseados em S&#xe9;ries de televis&#xe3;o,Jefferson Schroeder</keywords>
+    </Ext>
+    <title:LocalizableTitle xml:lang="pt-br">
+      <title:TitleLong>Cr&#xf4; Em Fam&#xed;lia</title:TitleLong>
+      <title:SummaryMedium>Mesmo tornando-se dono de uma badalada escola de etiqueta, Cr&#xf4; fica sem ch&#xe3;o ao enfrentar um div&#xf3;rcio. &#xc9; quando surge um grupo de indiv&#xed;duos peculiares afirmando ser a fam&#xed;lia que Cr&#xf4; nunca conheceu. Agora ele precisa lidar com a chegada desses visitantes que parecem ter vindo para ficar.</title:SummaryMedium>
+      <title:SummaryLong></title:SummaryLong>
+    </title:LocalizableTitle>
+    <title:Rating ratingSystem="Classind">12</title:Rating>
+    <title:Advisory>private:Viol&#xea;ncia</title:Advisory>
+    <title:DisplayRunTime>02:15:00</title:DisplayRunTime>
+    <title:Year>2018</title:Year>
+    <title:CountryOfOrigin>US</title:CountryOfOrigin>
+    <title:ShowType>Movie</title:ShowType>
+    <title:Genre>Com&#xe9;dia / Com&#xe9;dia</title:Genre>
+  </Asset>
+  <Asset xsi:type="offer:ContentGroupType" uriId="telecine.com.br/contentGroup/9855471">
+    <offer:TitleRef uriId="telecine.com.br/title/2488051"></offer:TitleRef>
+    <offer:MovieRef uriId="telecine.com.br/movie/2052784"></offer:MovieRef>
+    <offer:ThumbnailRef uriId="telecine.com.br/frame/2052784"></offer:ThumbnailRef>
+    <offer:BoxCoverRef uriId="telecine.com.br/card/2052784"></offer:BoxCoverRef>
+  </Asset>
+  <Asset xsi:type="content:MovieType" uriId="telecine.com.br/movie/2052784" creationDateTime="2019-09-27T17:01:10-03:00">
+    <AlternateId identifierSystem="IBMS">2052784</AlternateId>
+    <Provider>telecine.com.br</Provider>
+    <Ext>
+      <mediaType>MOVIE</mediaType>
+    </Ext>
+    <content:SourceUrl>medias/2052784/2052784.mp4</content:SourceUrl>
+    <content:ContentFileSize>4670907367</content:ContentFileSize>
+    <content:ContentCheckSum>c5d19618c73dd9169d41d030780dde3a-446</content:ContentCheckSum>
+    <content:ContentRef>telecine.com.br/frame/2052784</content:ContentRef>
+    <content:Duration>PT1H15M0S</content:Duration>
+    <content:Language>en</content:Language>
+    <content:Rating ratingSystem="Classind">L</content:Rating>
+    <content:CaptionRef uriId="telecine.com.br/subtitle/2052784"></content:CaptionRef>
+  </Asset>
+  <Asset xsi:type="content:BoxCoverType" uriId="telecine.com.br/card/2052784" creationDateTime="2019-09-27T17:01:10-03:00">
+    <Provider>telecine.com.br</Provider>
+    <Ext>
+      <mediaType>CARD</mediaType>
+    </Ext>
+    <content:SourceUrl>medias/2052784/2052784_CARD.jpg</content:SourceUrl>
+    <content:ContentFileSize>145894</content:ContentFileSize>
+    <content:ContentCheckSum>90dc75e4661f5f175a7e961081dbbdee</content:ContentCheckSum>
+  </Asset>
+  <Asset xsi:type="content:ThumbnailType" uriId="telecine.com.br/frame/2052784" creationDateTime="2019-09-27T17:01:10-03:00">
+    <Provider>telecine.com.br</Provider>
+    <Ext>
+      <mediaType>FRAME</mediaType>
+    </Ext>
+    <content:SourceUrl>medias/2052784/2052784_FRAME.jpg</content:SourceUrl>
+    <content:ContentFileSize>614635</content:ContentFileSize>
+    <content:ContentCheckSum>d6509ec6b41138a568deb2339f22de4b</content:ContentCheckSum>
+  </Asset>
+</ADI3>
